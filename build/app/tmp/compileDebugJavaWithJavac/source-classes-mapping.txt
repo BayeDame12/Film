@@ -1,0 +1,6 @@
+com/example/film/MainActivity.java
+ com.example.film.MainActivity
+io/flutter/plugins/GeneratedPluginRegistrant.java
+ io.flutter.plugins.GeneratedPluginRegistrant
+com/example/film/BuildConfig.java
+ com.example.film.BuildConfig
