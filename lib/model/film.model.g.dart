@@ -1,0 +1,35 @@
+// GENERATED CODE - DO NOT MODIFY BY HAND
+
+part of 'film.model.dart';
+
+// **************************************************************************
+// JsonSerializableGenerator
+// **************************************************************************
+
+Film _$FilmFromJson(Map<String, dynamic> json) => Film(
+      id: json['id'] as int,
+      original_language: json['original_language'] as String,
+      original_title: json['original_title'] as String,
+      backdrop_path: json['backdrop_path'] as String,
+      poster_path: json['poster_path'] as String,
+      release_date: json['release_date'] as String,
+      overview: json['overview'] as String,
+      vote_average: (json['vote_average'] as num).toDouble(),
+      video: json['video'] as bool,
+      vote_count: json['vote_count'] as int,
+      title: json['title'] as String,
+    );
+
+Map<String, dynamic> _$FilmToJson(Film instance) => <String, dynamic>{
+      'id': instance.id,
+      'original_language': instance.original_language,
+      'original_title': instance.original_title,
+      'overview': instance.overview,
+      'backdrop_path': instance.backdrop_path,
+      'poster_path': instance.poster_path,
+      'release_date': instance.release_date,
+      'vote_average': instance.vote_average,
+      'video': instance.video,
+      'vote_count': instance.vote_count,
+      'title': instance.title,
+    };

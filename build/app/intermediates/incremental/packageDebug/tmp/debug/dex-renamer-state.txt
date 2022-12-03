@@ -1,4 +1,4 @@
-#Thu Nov 24 17:14:36 GMT 2022
+#Fri Dec 02 08:32:39 GMT 2022
 base.0=/home/mouhamed/Documents/MOBILE/film/build/app/intermediates/dex/debug/mergeDexDebug/classes.dex
 renamed.0=classes.dex
 path.0=classes.dex

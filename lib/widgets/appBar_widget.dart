@@ -5,7 +5,8 @@ FilmAppBarr(
   Icon monicon,
 ) {
   return AppBar(
-    title: Text(titreText),
+    title: Text(titreText,
+        style: TextStyle(fontSize: 25, color: Color(0xfff43370))),
     centerTitle: true,
     elevation: 10.0,
     backgroundColor: Colors.black,

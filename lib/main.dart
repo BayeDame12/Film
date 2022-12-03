@@ -10,9 +10,14 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: Scaffold(
-        appBar: FilmAppBarr('FilmApp', Icon(Icons.access_alarm_sharp)),
-        body: HomeFilm(),
+        // backgroundColor: Color(0xff191826),
+        appBar: FilmAppBarr(
+          'Movies',
+          Icon(Icons.search),
+        ),
+        body: MyHomePage(),
       ),
     );
   }
